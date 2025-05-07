@@ -1,7 +1,7 @@
 // cypress - Spec
 
 describe('Suggest features - report a problem page', function () {
-    it('First test case', function () {
+    it('Send message', function () {
 
         cy.visit('https://www.navigator.ba/');
         cy.get('[title="Predloži ideju - Pošalji komentar"]').click();
@@ -16,7 +16,7 @@ describe('Suggest features - report a problem page', function () {
         cy.get('.alert',  { timeout: 6000 }).should('contain.text', 'poslana');
     })
 
-    it('Second test case', function () {
+    it('Send message without valid e-mail', function () {
 
         cy.visit('https://www.navigator.ba/');
         cy.get('[title="Predloži ideju - Pošalji komentar"]').click();
