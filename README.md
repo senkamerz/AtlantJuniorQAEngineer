@@ -3,7 +3,7 @@ Investigate the Navigator application and create a test plan for [https://www.na
 
 ## Installation
 
-### Install Node.j
+### Install Node.js
 Download and install Node.js from [https://nodejs.org/en/download/](https://nodejs.org/en/download/).
 
 ### Clone the repository
